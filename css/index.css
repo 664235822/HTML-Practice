@@ -106,7 +106,7 @@ body>div>div{
 }
 .content_3>div>div{
 	float: left;
-	margin: 10px;
+	margin: 2px;
 	width: 390px;
 	height: 427px;
 }
@@ -202,4 +202,166 @@ ul{
 }
 .content_3_1 p>span{
 	color: cadetblue;
+}
+
+
+
+
+
+
+.title1{
+	height: 45px;
+	position: relative;
+    width: 100%;
+    color: #FFF;
+    background: #C43D7E;
+}
+.title1 h3{
+	float: left;
+	color: white;
+	font-size: 18px;
+	margin: 9px 0px 0px 18px;
+}
+.title1 a{
+	float: right;
+	color: white;
+	font-size: 10px;
+	margin: 15px 10px 0 0;
+}
+.content ul{
+	width: 390px;
+	height: 363px;
+	padding: 0;
+}
+.content ul li.first{
+    height: 241px;
+}
+
+.content ul li {
+    position: relative;
+    float: left;
+    width: 194px;
+    height: 120px;
+    border-style: solid;
+    border-color: #e7e7e7;
+    list-style: none;
+}
+.content ul li a {
+    float: left;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.content ul li.first p.name {
+    width: 140px;
+    height: 20px;
+    overflow: hidden;
+    margin: 14px 0 0 15px;
+    color: #333;
+    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    word-break: break-all;
+}
+.content ul li.first p.desc {
+    width: 144px;
+    margin-top: 3px;
+    color: #c43e7e;
+    height: 16px;
+    overflow: hidden;
+    margin: 10px 0 0 15px;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.content ul li.first img {
+    width: 160px;
+    height: 160px;
+    left: 13px;
+    top: auto;
+    right: auto;
+    bottom: 0;
+    position: absolute;
+    display: block;
+}
+.content ul li p.name {
+    width: 72px;
+    height: 40px;
+    overflow: hidden;
+    margin: 14px 0 0 15px;
+    color: #333;
+    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    word-break: break-all;
+}
+.content ul li p.desc {
+    width: 72px;
+    height: 16px;
+    overflow: hidden;
+    color: #999;
+    margin: 10px 0 0 15px;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.content ul li img {
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 90px;
+    bottom: 3px;
+    right: 3px;
+}
+.title2{
+	height: 45px;
+	position: relative;
+    width: 100%;
+    color: #FFF;
+    background: #6D55BD;
+}
+.title2 h3{
+	float: left;
+	color: white;
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	margin: 9px 0px 0px 18px;
+}
+.title2 a{
+	float: right;
+	color: white;
+	font-size: 10px;
+	font-family: "microsoft yahei";
+	margin: 15px 10px 0 0;
+}
+.title3{
+	height: 45px;
+	position: relative;
+    width: 100%;
+    color: #FFF;
+    background: #325BB5;
+}
+.title3 h3{
+	float: left;
+	color: white;
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	margin: 9px 0px 0px 18px;
+}
+.title3 a{
+	float: right;
+	color: white;
+	font-size: 10px;
+	font-family: "microsoft yahei";
+	margin: 15px 10px 0 0;
+}
+.content ul li.first p.desc2{
+    width: 144px;
+    margin-top: 3px;
+    color: #6D55BD;
+    height: 16px;
+    overflow: hidden;
+    margin: 10px 0 0 15px;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.content ul li.first p.desc3{
+    width: 144px;
+    margin-top: 3px;
+    color: #325BB5;
+    height: 16px;
+    overflow: hidden;
+    margin: 10px 0 0 15px;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
 }
