@@ -1,0 +1,192 @@
+ul{
+	list-style: none;
+	margin: 0;
+	
+}
+div{
+	position: relative;
+}
+
+.content-2-1{
+	position: absolute;
+	left: 425px;
+	top: 165px;
+}
+.content-2-2{
+	position: relative;
+	left: 380px;
+	bottom: 220px;
+}
+.content-2-3{
+	position: relative;
+	left: 625px;
+	bottom: 660px;
+	}
+.content-2-4{
+	position: relative;
+	left: 620px;
+	bottom: 665px;
+}
+.content-2-5{
+	position: relative;
+	left: 860px;
+	bottom: 1120px;
+	}
+.content-2-6{
+	position: relative;
+	left: 860px;
+	bottom: 1120px;
+}
+.content-2-7{
+	position: relative;
+	left: 1100px;
+	bottom: 1570px;
+}
+.content-2-8{
+	position: relative;
+	left: 1100px;
+	bottom: 1570px;
+}
+.content-2-9{
+	position: relative;
+	left: 1340px;
+	bottom: 2025px;
+	}
+.content-2-10{
+	position: relative;
+	left: 1340px;
+	bottom: 2030px;
+}
+.content-2-1 p:first-of-type{
+	font-size: 20px;
+	color:white;
+	position: relative;
+	bottom: 15px;
+	left: 15px;
+}
+.content-2-1 p:last-of-type{
+	position: relative;
+	bottom: 25px;
+	left: 25px;
+	color: deeppink;
+}
+.content-2-2 p:first-of-type{
+	font-size: 20px;
+	color:white;
+	position: relative;
+	bottom: 8px;
+	left: 10px;
+}
+.content-2-2 p:last-of-type{
+	position: relative;
+	bottom: 18px;
+	left: 15px;
+	color: deeppink;
+}
+.content-2-3 p:first-of-type{
+	font-size: 20px;
+	color:white;
+	position: relative;
+	bottom: 15px;
+	left: 15px;
+}
+.content-2-3 p:last-of-type{
+	position: relative;
+	bottom: 28px;
+	left: 15px;
+	color: deeppink;
+}.content-2-4 p:first-of-type{
+	font-size: 20px;
+	color:white;
+	position: relative;
+	bottom: 15px;
+	left: 10px;
+}
+.content-2-4 p:last-of-type{
+	position: relative;
+	bottom: 28px;
+	left: 18px;
+	color: deeppink;
+}
+.content-2-5 p:first-of-type{
+	font-size: 20px;
+	color:white;
+	position: relative;
+	bottom: 10px;
+	left: 15px;
+}
+.content-2-5 p:last-of-type{
+	position: relative;
+	bottom: 22px;
+	left: 15px;
+	color: deeppink;
+}
+.content-2-6 p:first-of-type{
+	font-size: 20px;
+	color:white;
+	position: relative;
+	bottom: 15px;
+	left: 15px;
+}
+.content-2-6 p:last-of-type{
+	position: relative;
+	bottom: 25px;
+	left: 15px;
+	color: deeppink;
+}
+.content-2-7 p:first-of-type{
+	font-size: 20px;
+	color:white;
+	position: relative;
+	bottom: 15px;
+	left: 15px;
+}
+.content-2-7 p:last-of-type{
+	position: relative;
+	bottom: 25px;
+	left: 9px;
+	color: deeppink;
+}
+.content-2-8 p:first-of-type{
+	font-size: 20px;
+	color:white;
+	position: relative;
+	bottom: 18px;
+	left: 15px;
+}
+.content-2-8 p:last-of-type{
+	position: relative;
+	bottom: 30px;
+	left: 20px;
+	color: deeppink;
+}
+.content-2-9 p:first-of-type{
+	font-size: 20px;
+	color:white;
+	position: relative;
+	bottom: 15px;
+	left: 10px;
+}
+.content-2-9 p:last-of-type{
+	position: relative;
+	bottom: 25px;
+	left: 15px;
+	color: deeppink;
+}
+.content-2-10 p:first-of-type{
+	font-size: 20px;
+	color:white;
+	position: relative;
+	bottom: 10px;
+	left: 18px;
+}
+.content-2-10 p:last-of-type{
+	position: relative;
+	bottom: 25px;
+	left: 20px;
+	color: deeppink;
+}
+
+
+
+
