@@ -294,7 +294,6 @@ body>div>div{
 .content-3-4 ul li.first{
     height: 241px;
 }
-
 .content-3-4 ul li {
     position: relative;
     float: left;
@@ -353,7 +352,7 @@ body>div>div{
     overflow: hidden;
     color: #999;
     margin: 10px 0 0 15px;
-    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    font-size: 12px;
 }
 .content-3-4 ul li img {
     position: absolute;
@@ -374,14 +373,12 @@ body>div>div{
 	float: left;
 	color: white;
 	font-size: 18px;
-	font-family: "microsoft yahei";
 	margin: 9px 0px 0px 18px;
 }
 .content-3-4 .title-2 a{
 	float: right;
 	color: white;
 	font-size: 10px;
-	font-family: "microsoft yahei";
 	margin: 15px 10px 0 0;
 }
 .content-3-4 .title-3{
@@ -395,14 +392,12 @@ body>div>div{
 	float: left;
 	color: white;
 	font-size: 18px;
-	font-family: "microsoft yahei";
 	margin: 9px 0px 0px 18px;
 }
 .content-3-4 .title-3 a{
 	float: right;
 	color: white;
 	font-size: 10px;
-	font-family: "microsoft yahei";
 	margin: 15px 10px 0 0;
 }
 .content-3-4 ul li.first p.desc2{
@@ -412,7 +407,7 @@ body>div>div{
     height: 16px;
     overflow: hidden;
     margin: 10px 0 0 15px;
-    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    font-size: 12px;
 }
 .content-3-4 ul li.first p.desc3{
     width: 144px;
@@ -421,5 +416,5 @@ body>div>div{
     height: 16px;
     overflow: hidden;
     margin: 10px 0 0 15px;
-    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    font-size: 12px;
 }
