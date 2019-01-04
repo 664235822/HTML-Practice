@@ -105,6 +105,9 @@ body>div>div{
 .search>p>a>span{
 	color: darkorange;
 }
+.nav-bar{
+	height: 38px;
+}
 .nav-bar .nav-bar-left{
 	float: left;
 	width: 180px;
@@ -171,6 +174,35 @@ body>div>div{
 }
 .nav-bar .nav-bar-right{
 	float: right;
+}
+.main-banner{
+	background: rgb(200,43,46);
+}
+.main-banner .banner-list{
+	float: left;
+	background: black;
+	width: 190px;
+	height: 487px;
+}
+.main-banner .banner-list ul>li{
+	position: relative;
+    width: 175px;
+    height: 32px;
+    padding: 0 10px;
+    line-height: 32px;
+	color: white;
+	font-size: 13px;
+}
+.main-banner .banner-list ul>li:hover{
+	color: black;
+	background: white;
+}
+.main-banner .banner-logo{
+	float: left;
+	background: url(../img/main_banner.jpg);
+	background-size: cover;
+	width: 830px;
+	height: 487px;
 }
 .content-3>div>div{
 	float: left;
