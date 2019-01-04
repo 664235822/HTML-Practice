@@ -105,8 +105,33 @@ body>div>div{
 .search>p>a>span{
 	color: darkorange;
 }
-.nav-bar>div>a{
-	
+.nav-bar .nav-bar-left{
+	float: left;
+	width: 180px;
+	height: 38px;
+	background: orange;
+	padding-left: 10px;
+	line-height: 38px;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+.nav-bar .nav-bar-left:hover{
+	background: darkorange;
+}
+.nav-bar .nav-bar-left i{
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	padding-left: 4px;
+	background: url(../img/index.png) 0 0;
+}
+.nav-bar .nav-bar-center{
+	width: 785px;
+	height: 38px;
+	line-height: 38px;
+	padding-left: 20px;
+	display: inline-block;
 }
 .content-3>div>div{
 	float: left;
