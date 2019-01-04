@@ -10,15 +10,15 @@ ul{
 	margin: 0px;
 	padding: 0px;
 }
-.banner_top{
+.banner-top{
 	height: 100px;
 	background: red;
 }
-.banner_top>p:first-of-type{
+.banner-top>p:first-of-type{
 	text-align: center;
 	margin: 0;
 }
-.banner_top>p:last-of-type{
+.banner-top>p:last-of-type{
 	position: absolute;
 	margin: 0;
 	top: 3px;
@@ -28,7 +28,7 @@ ul{
 	background: url(../img/index.png) -241px -145px;
 	display: inline;
 }
-.nav_top{
+.nav-top{
 	background: rgb(245,245,245);
 }
 .clearfix:after{
@@ -41,22 +41,22 @@ body>div>div{
 	width: 1190px;
 	position: relative;
 }
-.nav_top .nav_top_left{
+.nav-top .nav-top-left{
 	float: left;
 }
-.nav_top .nav_top_right{
+.nav-top .nav-top-right{
 	float: right;
 }
-.nav_top a{
+.nav-top a{
 	display: inline-block;
 	font-size: 12px;
 	margin: 10px;
 	color: black;
 }
-.nav_top span{
+.nav-top span{
 	color: darkorange;
 }
-.header_top>div>img{
+.header-top>div>img{
 	width: 190px;
 	height: 90px;
 	display: inline-block;
@@ -70,17 +70,17 @@ body>div>div{
 	padding: 30px 0 0 0;
 	display: inline-block;
 }
-.search .search_box{
+.search .search-box{
 	border: 2px solid darkorange;
 }
-.search .search_box input[type="text"]{
+.search .search-box input[type="text"]{
 	width: 420px;
 	height: 30px;
 	border: 0;
 	outline: none;
 	display: inline-block;
 }
-.search .search_box input[type="submit"]{
+.search .search-box input[type="submit"]{
 	font-size: 18px;
 	color: white;
 	width: 114px;
@@ -105,10 +105,10 @@ body>div>div{
 .search>p>a>span{
 	color: darkorange;
 }
-.nav_bar>div>a{
+.nav-bar>div>a{
 	
 }
-.content_3>div>div{
+.content-3>div>div{
 	float: left;
 	margin: 2px;
 	width: 390px;
@@ -131,61 +131,61 @@ body>div>div{
 	margin: 15px 10px 0 0;
 	text-decoration: none;
 }
-.content_3_1 .title{
+.content-3-1 .title{
 	background: green;
 }
-.content_3_2 .title{
+.content-3-2 .title{
 	background: orange;
 }
-.content_3_2 .title img{
+.content-3-2 .title img{
 	position: absolute;
     left: 87px;
     bottom: 8px;
     width: 53px;
     height: 53px;
 }
-.content_3 ul>li{
+.content-3 ul>li{
 	position: relative;
 	float: left;
 	border-style: solid;
 	border-color: lightgray;
 	list-style: none;
 }
-.content_3_1 ul>li{
+.content-3-1 ul>li{
 	width: 194px;
 	height: 120px;
 }
-.content_3_2 ul>li{
+.content-3-2 ul>li{
 	width: 194px;
     height: 180px;
 }
-.border_left{
+.border-left{
 	border-width: 0px 1px 1px 0px;
 }
-.border_right{
+.border-right{
 	border-width: 0px 0px 1px 0px;
 }
-.content_3 img{
+.content-3 img{
 	width: 90px;
 	height: 90px;
 	bottom: 3px;
 	right: 3px;
 }
-.content_3_1 img{
+.content-3-1 img{
 	position: absolute;
 	float: right;
 }
-.content_3_2 img{
+.content-3-2 img{
 	margin-top: 14px;
 }
-.content_3_1 a>p{
+.content-3-1 a>p{
 	width: 76px;
     height: 40px;
     margin: 14px 0 0 15px;
     color: #333;
 	font-size: 14px;
 }
-.content_3_2 a>p:first-of-type{
+.content-3-2 a>p:first-of-type{
 	padding: 0px 8px;
 	height: 20px;
 	margin: 14px 0 0 8px;
@@ -195,12 +195,12 @@ body>div>div{
 	font-size: 14px;
 	display: inline-block;
 }
-.content_3_2 a>p:last-of-type{
+.content-3-2 a>p:last-of-type{
 	color: gray;
 	margin: 6px 0 0 16px;
 	font-size: 12px;
 }
-.content_3_1 p>span{
+.content-3-1 p>span{
 	color: cadetblue;
 }
 .title1{
