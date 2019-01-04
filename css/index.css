@@ -6,6 +6,10 @@
 body{
 	margin: 0;
 }
+ul{
+	margin: 0px;
+	padding: 0px;
+}
 .banner_top{
 	height: 100px;
 	background: red;
@@ -27,7 +31,7 @@ body{
 .nav_top{
 	background: rgb(245,245,245);
 }
-.nav_top:after{
+.clearfix:after{
 	content: '';
 	display: block;
 	clear: both;
@@ -37,10 +41,10 @@ body>div>div{
 	width: 1190px;
 	position: relative;
 }
-.nav_top>div>div:first-of-type{
+.nav_top .nav_top_left{
 	float: left;
 }
-.nav_top>div>div:last-of-type{
+.nav_top .nav_top_right{
 	float: right;
 }
 .nav_top a{
@@ -66,16 +70,16 @@ body>div>div{
 	padding: 30px 0 0 0;
 	display: inline-block;
 }
-.search>form>div{
+.search .search_box{
 	border: 2px solid darkorange;
 }
-.search>form>div>input[type="text"]{
+.search .search_box input[type="text"]{
 	width: 420px;
 	height: 30px;
 	border: 0;
 	display: inline-block;
 }
-.search>form>div>input[type="submit"]{
+.search .search_box input[type="submit"]{
 	font-size: 18px;
 	color: white;
 	width: 114px;
@@ -99,10 +103,8 @@ body>div>div{
 .search>p>a>span{
 	color: darkorange;
 }
-.content_3:after{
-	content: '';
-	display: block;
-	clear: both;
+.nav_bar>div>a{
+	
 }
 .content_3>div>div{
 	float: left;
@@ -114,35 +116,31 @@ body>div>div{
 	position: relative;
 	height: 45px;
 }
-.title>h3{
+.title h3{
 	float: left;
 	color: white;
 	font-size: 18px;
 	margin: 10px 0px 0px 18px;
 }
-.title>a{
+.title a{
 	float: right;
 	color: white;
 	font-size: 10px;
 	margin: 15px 10px 0 0;
 	text-decoration: none;
 }
-.content_3_1>div.title{
+.content_3_1 .title{
 	background: green;
 }
-.content_3_2>div.title{
+.content_3_2 .title{
 	background: orange;
 }
-.content_3_2>div.title>img{
+.content_3_2 .title img{
 	position: absolute;
     left: 87px;
     bottom: 8px;
     width: 53px;
     height: 53px;
-}
-ul{
-	margin: 0px;
-	padding: 0px;
 }
 .content_3 ul>li{
 	position: relative;
@@ -151,11 +149,11 @@ ul{
 	border-color: lightgray;
 	list-style: none;
 }
-.content_3_1>ul>li{
+.content_3_1 ul>li{
 	width: 194px;
 	height: 120px;
 }
-.content_3_2>ul>li{
+.content_3_2 ul>li{
 	width: 194px;
     height: 180px;
 }
@@ -203,12 +201,6 @@ ul{
 .content_3_1 p>span{
 	color: cadetblue;
 }
-
-
-
-
-
-
 .title1{
 	height: 45px;
 	position: relative;
