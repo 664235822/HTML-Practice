@@ -132,10 +132,49 @@ body>div>div{
 	line-height: 38px;
 	padding-left: 20px;
 	display: inline-block;
+	overflow: hidden;
+}
+.nav-bar .nav-bar-center ul>li{
+	float: left;
+	margin: 0 10px;
+}
+.nav-bar .nav-bar-center ul>li>a{
+	position: relative;
+	font-size: 15px;
+	font-weight: bolder;
+	color: black;
+}
+.nav-bar .nav-bar-center ul>li>a:hover{
+	color: darkorange;
+}
+.nav-bar .nav-bar-center ul>li>a>span{
+	position: absolute;
+	width: 25px;
+	height: 8px;
+	bottom: -16px;
+	left: 50%;
+	margin-left: -12px;
+	background: url(../img/index.png) -37px 0;
+	transition: all .5s;
+}
+.nav-bar .nav-bar-center ul>li>a:hover>span{
+	transform: translateY(-8px)
+}
+.nav-bar .nav-bar-center ul>li>a>i{
+	position: absolute;
+	width: 14px;
+	height: 17px;
+	left: auto;
+    right: -14px;
+    top: -10px;
+	background: url(../img/index.png) -345px -213px;
+}
+.nav-bar .nav-bar-right{
+	float: right;
 }
 .content-3>div>div{
 	float: left;
-	margin: 2px;
+	margin: 3px;
 	width: 390px;
 	height: 427px;
 }
