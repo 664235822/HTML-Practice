@@ -315,7 +315,7 @@ body>div>div{
     overflow: hidden;
     margin: 14px 0 0 15px;
     color: #333;
-    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    font-size: 14px;
     word-break: break-all;
 }
 .content-3-4 ul li.first p.desc {
@@ -325,7 +325,7 @@ body>div>div{
     height: 16px;
     overflow: hidden;
     margin: 10px 0 0 15px;
-    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    font-size: 12px;
 }
 .content-3-4 ul li.first img {
     width: 160px;
@@ -343,7 +343,7 @@ body>div>div{
     overflow: hidden;
     margin: 14px 0 0 15px;
     color: #333;
-    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    font-size: 14px;
     word-break: break-all;
 }
 .content-3-4 ul li p.desc {
