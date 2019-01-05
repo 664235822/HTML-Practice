@@ -106,7 +106,7 @@ section{
 }
 .nav-top .nav-top-div img{
 	vertical-align: middle;
-	margin-right: 20px;
+	margin: 10px;
 }
 .nav-top span{
 	color: darkorange;
@@ -959,11 +959,9 @@ section{
 	transform: translateY(-15px);
 	transition: all 1s ease-out;
 }
-.content-5 .div-center{
-	width: 1190px;
+.content-5>div{
 	height: 100px;
 	margin: 20px auto 0;
-	display: block;
 	cursor: pointer;
 }
 .content-5 a img{
