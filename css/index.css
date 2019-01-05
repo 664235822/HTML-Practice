@@ -959,3 +959,15 @@ section{
 	transform: translateY(-15px);
 	transition: all 1s ease-out;
 }
+.content-5 .div-center{
+	width: 1190px;
+	height: 100px;
+	margin: 20px auto 0;
+	display: block;
+	cursor: pointer;
+}
+.content-5 a img{
+	width: 396px;
+	height: 100px;
+	float: left;
+}
