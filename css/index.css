@@ -36,10 +36,16 @@ ul{
 	display: block;
 	clear: both;
 }
-body>div>div{
+.div-center{
 	margin: auto;
 	width: 1190px;
 	position: relative;
+}
+section{
+	background: rgb(245,245,245);
+}
+.bg-white{
+	background: white;
 }
 .nav-top .nav-top-left{
 	float: left;
