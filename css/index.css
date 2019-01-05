@@ -125,6 +125,9 @@ section{
 	font-size: 13px;
 	font-weight: bold;
 }
+.nav-bar .nav-bar-left:hover{
+	background: darkorange;
+}
 .nav-bar .nav-bar-left i{
 	width: 12px;
 	height: 12px;
