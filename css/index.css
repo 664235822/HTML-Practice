@@ -10,6 +10,9 @@ ul{
 	margin: 0px;
 	padding: 0px;
 }
+.a-black{
+	color: black;
+}
 .hover-darkorange:hover{
 	color: darkorange;
 }
@@ -56,11 +59,54 @@ section{
 .nav-top .nav-top-right{
 	float: right;
 }
-.nav-top a{
+.nav-top label{
+	position: relative;
 	display: inline-block;
 	font-size: 12px;
-	margin: 10px;
+	padding: 10px;
 	color: black;
+}
+.nav-top .nav-top-div{
+	z-index: 1;
+	position: absolute;
+	left: -1px;
+	top: 36px;
+	display: none;
+	border-style: solid;
+	border-color: lightgray;
+	border-width: 0px 1px 1px 1px;
+	padding: 5px;
+}
+.nav-top .nav-top-div ul>li{
+	float: left;
+	width: 70px;
+	padding: 5px 0 5px 10px;
+}
+.nav-top label:hover{
+	background: white;
+}
+.nav-top label:hover .nav-top-div{
+	display: block;
+}
+.nav-top .div-2{
+	width: 160px;
+}
+.nav-top .div-3{
+	width: 80px;
+}
+.nav-top .div-4{
+	width: 280px;
+	height: 400px;
+	padding-top: 160px;
+}
+.nav-top .div-4 p{
+	text-align: center;
+	font-size: 18px;
+	color: grey;
+}
+.nav-top .nav-top-div img{
+	vertical-align: middle;
+	margin-right: 20px;
 }
 .nav-top span{
 	color: darkorange;
@@ -151,7 +197,6 @@ section{
 	position: relative;
 	font-size: 15px;
 	font-weight: bolder;
-	color: black;
 }
 .nav-bar .nav-bar-center ul>li>a:hover{
 	color: darkorange;
@@ -297,12 +342,6 @@ section{
 }
 .main-banner .banner-right .news{
 	text-align: left;
-}
-.main-banner .banner-right .news>a{
-	color: black;
-}
-.main-banner .banner-right .news:hover{
-	color: darkorange;
 }
 .main-banner .banner-right .news span{
 	color: orange;
