@@ -331,7 +331,7 @@ section{
 	display: inline-block;
 	vertical-align: top;
 	width: 80px;
-	font-size: 8px;
+	font-size: 12px;
 	font-weight: bold;
 	margin-top: 0;
 }
@@ -343,7 +343,7 @@ section{
 .main-banner .banner-list .banner-list-div ul>li{
 	float: left;
 	margin: 0 4px;
-	font-size: 8px;
+	font-size: 12px;
 	line-height: 22px;
 }
 .main-banner .banner-logo{
