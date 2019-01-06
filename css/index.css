@@ -309,8 +309,8 @@ section{
 .main-banner .banner-list .banner-list-div{
 	z-index: 3;
 	position: absolute;
-	width: 1000px;
-	top: -2px;
+	width: 980px;
+	top: 0px;
 	left: 190px;
 	display: none;
 	border-style: solid;
@@ -337,7 +337,7 @@ section{
 }
 .main-banner .banner-list .banner-list-div ul{
 	display: inline-block;
-	width: 880px;
+	width: 860px;
 	padding: 5px;
 }
 .main-banner .banner-list .banner-list-div ul>li{
