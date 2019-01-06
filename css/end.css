@@ -1,0 +1,131 @@
+footer{
+	background-color: #F2F2F2;
+}
+.content-end{
+	width: 112px;
+	height: 58px;
+	margin: 0 auto;
+}
+.content-end-msg{
+	position: relative;
+	width: 112px;
+	height: 22px;
+	text-align: center;
+	color: #ccc;
+	margin: 15px auto;
+	font-size: 18px;
+	line-height: 58px;
+	font-family: "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+.content-end-msg span{
+	position: absolute;
+	top: 28px;
+	width: 97px;
+	height: 1px;
+	background: #ccc;
+}
+.content-end-msg-left{
+	left: -97px;
+}
+.content-end-msg-right{
+	right: -97px;
+}
+.ng-footer-top{
+	margin-top: 10px;
+}
+.ng-ser-box{
+	background: #f5f5f5;
+    border-top: solid #e7e7e7 1px;
+}
+.ng-ser-box-con{
+	width: 1190px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.ng-promise{
+	width: 1250px;
+	padding: 12px 0;
+	height: 73px;
+	border-bottom: solid #eaeaea 1px;
+}
+.ng-promise dl{
+	width: 250px;
+	float: left;
+	overflow: hidden;
+}
+.ng-promise dt{
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin-right: 8px;
+}
+.ng-promise dt img{
+	height: 48px;
+    width: 48px;
+    display: block;
+}
+.ng-promise dd{
+	width: 180px;
+	height: 48px;
+	float: left;
+	margin: 0;
+    padding: 0;
+}
+.ng-promise dd p{
+	line-height: 24px;
+	font-size: 13px;
+	width: 100%;
+	color: #545454;
+	margin: 0;
+    padding: 0;
+}
+.ng-promise dd p strong{
+	font-weight: 700px;
+	color: #222;
+	font-size: 14px;
+}
+.ng-help-box{
+    width: 1010px;
+    height: 180px;
+    float: left;
+}
+.ng-help-box dl{
+	width: 200px;
+	height: 160px;
+	float: left;
+	margin-top: 15px;
+}
+.ng-help-box dt{
+	height: 35px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 40px;
+	color: #545454;
+	overflow: hidden;
+}
+.ng-help-box dd{
+	line-height: 22px;
+	color: #545454;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+}
+.ng-app-down{
+	width: 90px;
+	width: 180px;
+	float: left;
+}
+.ng-app-down p.name{
+	height: 35px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 40px;
+	color: #545454;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.ng-app-down p{
+	line-height: 22px;
+	color: #545454;
+	font-size: 13px;
+}
