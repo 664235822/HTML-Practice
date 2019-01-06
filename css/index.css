@@ -164,7 +164,7 @@ section{
 	vertical-align: middle;
 	margin: 10px;
 }
-.nav-top span{
+.a-darkorange{
 	color: darkorange;
 }
 .header-top>div>img{
@@ -216,21 +216,23 @@ section{
 .nav-bar{
 	height: 38px;
 }
-.nav-bar .nav-bar-left{
+.bg-orange{
+	background: orange;
+	color: white;
+	font-size: 13px;
+}
+.bg-orange:hover{
+	background: darkorange;
+}
+.nav-bar .bg-orange{
 	float: left;
 	width: 180px;
 	height: 38px;
-	background: orange;
-	padding-left: 10px;
 	line-height: 38px;
-	color: white;
-	font-size: 13px;
 	font-weight: bold;
+	padding-left: 10px;
 }
-.nav-bar .nav-bar-left:hover{
-	background: darkorange;
-}
-.nav-bar .nav-bar-left i{
+.nav-bar .bg-orange i{
 	width: 12px;
 	height: 12px;
 	display: inline-block;
@@ -286,13 +288,13 @@ section{
 	background: rgb(200,43,46);
 }
 .main-banner .banner-list{
+	position: relative;
 	float: left;
 	background: black;
 	width: 190px;
 	height: 487px;
 }
-.main-banner .banner-list ul>li{
-	position: relative;
+.main-banner .banner-list>ul>li{
     width: 175px;
     height: 32px;
     padding: 0 10px;
@@ -300,9 +302,49 @@ section{
 	color: white;
 	font-size: 13px;
 }
-.main-banner .banner-list ul>li:hover{
+.main-banner .banner-list>ul>li:hover{
 	color: black;
 	background: white;
+}
+.main-banner .banner-list .banner-list-div{
+	z-index: 3;
+	position: absolute;
+	width: 1000px;
+	top: -2px;
+	left: 190px;
+	display: none;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px 1px 1px 0px;
+}
+.main-banner .banner-list ul>li:hover .banner-list-div{
+	display: block;
+	padding-left: 20px;
+}
+.main-banner .banner-list .banner-list-div .bg-orange{
+	padding: 0 6px;
+	margin: 0 10px;
+	display: inline-block;
+	line-height: 24px;
+}
+.main-banner .banner-list .banner-list-div>div>p{
+	display: inline-block;
+	vertical-align: top;
+	width: 80px;
+	font-size: 8px;
+	font-weight: bold;
+	margin-top: 4px;
+}
+.main-banner .banner-list .banner-list-div ul{
+	display: inline-block;
+	width: 880px;
+	padding: 5px;
+}
+.main-banner .banner-list .banner-list-div ul>li{
+	float: left;
+	margin: 0 4px;
+	font-size: 8px;
+	line-height: 24px;
 }
 .main-banner .banner-logo{
 	float: left;
