@@ -88,6 +88,35 @@ section{
 .nav-top label:hover .nav-top-div{
 	display: block;
 }
+.nav-top .div-1{
+	width: 1020px;
+}
+.nav-top .div-1 dl{
+	float: left;
+	width: 200px;
+}
+.nav-top .div-1 dl>dt{
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 5px 15px 5px 20px;
+}
+.nav-top .div-1 dl>dd{
+	position: relative;
+	display: inline-block;
+	width: 65px;
+	float: left;
+	font-size: 12px;
+	margin: 5px 15px 5px 20px;
+}
+.nav-top .div-1 .hot{
+	position: absolute;
+    width: 16px;
+    height: 16px;
+    left: auto;
+    top: -4px;
+    background: url(../img/npbg.png) 0 -205px;
+}
 .nav-top .div-2{
 	width: 160px;
 }
@@ -103,6 +132,33 @@ section{
 	text-align: center;
 	font-size: 18px;
 	color: grey;
+}
+.nav-top .div-5{
+	width: 550px;
+	z-index: 1;
+	position: absolute;
+	right: -1px;
+	top: 36px;
+	display: none;
+	border-style: solid;
+	border-color: lightgray;
+	border-width: 0px 1px 1px 1px;
+}
+.nav-top .div-5 ul>li{
+	float: left;
+	width: 180px;
+}
+.nav-top .div-5 p{
+	text-align: center;
+	color: black;
+	margin: 10px;
+}
+.nav-top .div-5 img{
+	width: 147px;
+	height: 147px;
+}
+.nav-top label:hover .div-5{
+	display: block;
 }
 .nav-top .nav-top-div img{
 	vertical-align: middle;
@@ -427,6 +483,11 @@ section{
 	border-style: solid;
 	border-color: lightgray;
 	border-width: 0px 0px 1px 0px;
+}
+.border_right{
+	border-style: solid;
+	border-color: lightgray;
+	border-width: 0px 1px 0px 0px;
 }
 .content-3 img{
 	width: 90px;
