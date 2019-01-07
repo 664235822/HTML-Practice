@@ -309,7 +309,7 @@ section{
 .main-banner .banner-list .banner-list-div{
 	z-index: 3;
 	position: absolute;
-	width: 980px;
+	width: 1000px;
 	top: 0px;
 	left: 190px;
 	display: none;
@@ -323,7 +323,7 @@ section{
 }
 .main-banner .banner-list .banner-list-div .banner-list-div-left{
 	float: left;
-	width: 760px;
+	width: 780px;
 	padding-left: 20px;
 }
 .main-banner .banner-list .banner-list-div .banner-list-div-left .bg-orange{
@@ -342,7 +342,7 @@ section{
 }
 .main-banner .banner-list .banner-list-div .banner-list-div-left ul{
 	display: inline-block;
-	width: 640px;
+	width: 660px;
 	padding: 5px;
 }
 .main-banner .banner-list .banner-list-div .banner-list-div-left ul>li{
