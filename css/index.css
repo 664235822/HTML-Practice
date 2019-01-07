@@ -390,7 +390,6 @@ section{
 }
 .main-banner .banner-logo .banner-bottom img{
 	position: absolute;
-	display: inline;
 	right: 10px;
 	bottom: 6px;
 	width: 80px;
@@ -443,6 +442,127 @@ section{
 }
 .main-banner .banner-right .news span{
 	color: orange;
+}
+.section-sidebar{
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 35px;
+	height: 100%;
+	background: black;
+}
+.section-sidebar a{
+	position: relative;
+	width: 35px;
+	display: block;
+	text-align: center;
+	font-size: 12px;
+}
+.section-sidebar a:hover{
+	background: darkorange;
+}
+.section-sidebar a>span{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	width: 60px;
+	height: 30px;
+	color: black;
+	background: darkorange;
+	line-height: 30px;
+	text-indent: 11px;
+}
+.section-sidebar a:hover>span{
+	display: block;
+	transition: all .5s ease-in-out;
+	transform: translateX(-60px);
+}
+.section-sidebar .tab-icon{
+	width: 35px;
+	height: 30px;
+	display: block;
+	background: url(../img/sidebar-icon.png);
+}
+.section-sidebar .sidebar-middle{
+	position: absolute;
+	top: 178px;
+	height: 357px;
+}
+.section-sidebar .icon-member{
+	background-position: 0 0;
+}
+.section-sidebar .icon-member:hover{
+	background-position: 78px 0;
+}
+.section-sidebar .div-cart{
+	color: white;
+}
+.section-sidebar .icon-cart{
+	background-position: 2px -210px;
+}
+.section-sidebar .icon-num{
+	display: inline-block;
+	width: 17px;
+	height: 15px;
+	padding: 0 2px;
+	background-color: red;
+	line-height: 15px;
+	border-radius: 5px;
+}
+.section-sidebar .icon-msg{
+	background-position: 0 -23px;
+}
+.section-sidebar .icon-msg:hover{
+	background-position: 78px -23px;
+}
+.section-sidebar .icon-finance{
+	background-position: 0 -47px;
+}
+.section-sidebar .icon-finance:hover{
+	background-position: 78px -47px;
+}
+.section-sidebar .icon-history{
+	background-position: 0 -70px;
+}
+.section-sidebar .icon-history:hover{
+	background-position: 78px -70px;
+}
+.section-sidebar .icon-sign{
+	background-position: 0 -93px;
+}
+.section-sidebar .icon-sign:hover{
+	background-position: 78px -93px;
+}
+.section-sidebar .sidebar-bottom{
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+}
+.section-sidebar .icon-service{
+	background-position: 0 -117px;
+}
+.section-sidebar .icon-service:hover{
+	background-position: 78px -117px;
+}
+.section-sidebar .icon-feedback{
+	background-position: 0 -138px;
+}
+.section-sidebar .icon-feedback:hover{
+	background-position: 78px -138px;
+}
+.section-sidebar .icon-code{
+	background-position: 0 -163px;
+}
+.section-sidebar .icon-code:hover{
+	background-position: 78px -163px;
+}
+.section-sidebar .icon-to-top{
+	background-position: 0 -260px;
+}
+.section-sidebar .icon-to-top:hover{
+	background-position: 78px -260px;
 }
 .content-3>div>div{
 	float: left;
