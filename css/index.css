@@ -316,18 +316,23 @@ section{
 	border-style: solid;
 	border-color: black;
 	border-width: 1px 1px 1px 0px;
+	background: rgb(245, 245, 245)
 }
 .main-banner .banner-list ul>li:hover .banner-list-div{
 	display: block;
+}
+.main-banner .banner-list .banner-list-div .banner-list-div-left{
+	float: left;
+	width: 760px;
 	padding-left: 20px;
 }
-.main-banner .banner-list .banner-list-div .bg-orange{
+.main-banner .banner-list .banner-list-div .banner-list-div-left .bg-orange{
 	padding: 0 6px;
 	margin: 0 10px;
 	display: inline-block;
 	line-height: 24px;
 }
-.main-banner .banner-list .banner-list-div>div>p{
+.main-banner .banner-list .banner-list-div .banner-list-div-left>div>p{
 	display: inline-block;
 	vertical-align: top;
 	width: 80px;
@@ -335,16 +340,50 @@ section{
 	font-weight: bold;
 	margin-top: 0;
 }
-.main-banner .banner-list .banner-list-div ul{
+.main-banner .banner-list .banner-list-div .banner-list-div-left ul{
 	display: inline-block;
-	width: 860px;
+	width: 660px;
 	padding: 5px;
 }
-.main-banner .banner-list .banner-list-div ul>li{
+.main-banner .banner-list .banner-list-div .banner-list-div-left ul>li{
 	float: left;
 	margin: 0 4px;
 	font-size: 12px;
 	line-height: 22px;
+}
+.banner-list-right{
+	float: right;
+    width: 199px;
+    height: 480px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.banner-list-right-top{
+    width: 182px;
+    height: 120px;
+    margin: 10px 0 0 8px;
+}
+.banner-list-right-top a{
+    float: left;
+    width: 90px;
+    height: 30px;
+    margin: 0 1px 1px 0;
+}
+.banner-list-right-top a img{
+    width: 89px;
+    height: 30px;
+    margin: 0 auto;
+}
+.banner-list-right-bottom{
+    width: 180px;
+    margin: 11px 0 0 8px;
+}
+.banner-list-right-bottom a img{
+    float: left;
+    width: 180px;
+    height: 100px;
+    margin-bottom: 5px;
+    overflow: hidden;
 }
 .main-banner .banner-logo{
 	float: left;
