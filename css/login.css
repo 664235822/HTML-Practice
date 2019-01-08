@@ -39,7 +39,7 @@ body{
 	height: 570px;
 	border: 1px solid red;
 	background: url(../img/10_8.jpg) -530px 0;
-	
+	background-repeat: no-repeat;
 }
 .main_1{
 	width: 970px;

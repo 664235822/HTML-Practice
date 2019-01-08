@@ -1,0 +1,124 @@
+.header-top{
+    padding: 20px 0;
+}
+.header-top>div>img{
+	width: 190px;
+	height: 70px;
+	display: inline-block;
+}
+.header-top ul{
+    display: inline-block;
+    padding: 20px 0 0 80px;
+}
+.header-top ul>li{
+    float: left;
+    padding: 0 14px;
+    font-size: 18px;
+}
+.main-banner{
+    background: rgb(238,39,70);
+    height: 480px;
+}
+.main-banner .user{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    width: 290px;
+    height: 440px;
+}
+.main-banner .user .user-top{
+    background: url(../img/vip_user_bg.png);
+    height: 230px;
+    padding-top: 23px;
+}
+.main-banner .user .user-top p{
+    text-align: center;
+    margin: 0px;
+    color: white;
+    font-size: 12px;
+}
+.main-banner .user .user-top i{
+    background: url(../img/head-icon.png);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: solid white 2px;
+    display: inline-block;
+}
+.main-banner .user .user-top a{
+    width: 120px;
+    height: 26px;
+    border: 2px solid darkorange;
+    border-radius: 2px;
+    color: darkorange;
+    font-size: 16px;
+    display: inline-block;
+}
+.main-banner .user .user-bottom p{
+    margin: 10px 20px;
+    font-size: 14px;
+}
+.main-banner .user .user-bottom a{
+    float: right;
+}
+.main-banner .user .user-bottom img{
+    margin: 0 2px;
+}
+.main-banner .main-banner-img{
+    display: inline-block;
+    width: 880px;
+    height: 424px;
+    background: url(../img/vip_banner.jpg);
+    background-position-x: -200px;
+    background-repeat: no-repeat;
+}
+.banner-bottom img{
+    padding: 10px;
+}
+section>div{
+    margin: 20px 0;
+    text-align: center;
+}
+.vip-special a{
+    color: darkorange;
+    border-color: darkorange;
+}
+.vip-special img{
+    margin: 5px;
+}
+.vip-about ul>li{
+    display: relative;
+    float: left;
+    margin-right: 80px;
+}
+.vip-about ul>li p{
+    float: left;
+    font-size: 20px;
+    vertical-align: top;
+}
+.vip-about ul>li img{
+    display: block;
+}
+.vip-about ul>li a{
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    color: grey;
+    clear: both;
+}
+.vip-goods ul>li{
+    float: left;
+    width: 200px;
+    margin: 0 18px;
+}
+.vip-goods ul>li img{
+    width: 200px;
+    height: 200px;
+}
+.vip-goods ul>li p{
+    text-align: left;
+    font-size: 14px;
+}
+.vip-goods ul>li span{
+    color: red;
+}
