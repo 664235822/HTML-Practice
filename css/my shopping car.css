@@ -1,0 +1,102 @@
+.wrapper{
+    min-width: 1190px;
+    height: 100px;
+}
+.nav{
+    width: 1190px;
+    clear: both;
+    margin: 0 auto
+}
+.nav-left{
+    height: 100px;
+    width: 400px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+.nav-left img{
+    margin-top: 20px
+}
+.nav-right{
+    position: relative;
+    float: right;
+    width: 400px;
+    margin-top: 34px;
+}
+.nav-right div{
+    float: left;
+    width: 318px;
+    height: 28px;
+    border: solid #f50 2px;
+    border-right: 0 none;
+}
+.nav-right div input{
+    float: left;
+    width: 318px;
+    height: 20px;
+    line-height: 20px;
+    padding: 4px 0;
+    border: 0;
+    background: #fff;
+}
+.nav-right a{
+    float: left;
+    width: 80px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    background: #f50;
+    color: #fff;
+    cursor: pointer;
+}
+.wrapper-2-1{
+    width: 1190px;
+    height: 260px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.wrapper-2-1 div{
+    height: 156px;
+    margin-top: 30px;
+    padding: 47px 0 57px 407px;
+    background: url(../img/my\ shopping\ car-2.png);
+    background-repeat:no-repeat;
+    background-position:200px 20px; 
+    padding-left: 507px;
+}
+.wrapper-2-1 div h2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.wrapper-2-1 div h2 a{
+    padding: 5px 12px;
+    background-color:#f60; 
+    color: #fff;
+    border-radius:2px; 
+    cursor: pointer;
+}
+.wrapper-2-1 div p{
+    line-height: 28px;
+    font-size: 12px;
+    margin-top: 0
+}
+.wrapper-2-1 div p a{
+    text-decoration: none;
+}
+.wrapper-2-2{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 1600px;
+}
+.wrapper-2-2 img{
+    width: 1507px;
+    margin: 0 auto;
+}
+.wrapper-2-1 div h2:hover a{
+    background-color:red; 
+}
+.nav-right a:hover{
+    background-color:red; 
+}
