@@ -1,0 +1,239 @@
+body{
+    background-color:#f5f5f5; 
+}
+.ms-header{
+    position: relative;
+}
+.ms-header-1{
+    padding: 16px 0;
+    height: 28px;
+    background: #FF7700;
+}
+.ms-logo{
+    float: left;
+    position: relative;
+    left: 0;
+    height: 28;
+    width: 12.3%;
+    min-width: 138px;
+}
+.heade-menu{
+    width: 1190px;
+    margin: 0 auto;
+}
+.ms-head-logo{
+    display: block;
+    height: 28px;
+    background: url(../img/ms-logo.png);
+    background-repeat: no-repeat;
+    background-position:center left;  
+}
+.ms-nav {
+    float: right;
+    width: 78%;
+}
+.ms-nav ul {
+    display: inline-block;
+    float: left;
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.ms-nav li {
+    float: left;
+    position: relative;
+    padding: 0 20px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: "Microsoft YaHei";
+    color: #FFF;
+    cursor: pointer;
+}
+.nav-arrow {
+    position: absolute;
+    margin-left: -8px;
+    left: 50%;
+    bottom: 0;
+    line-height: 0;
+    border-style: solid;
+    border-width: 8px;
+    border-color: transparent transparent #FFF;
+}
+.nav-manage em{
+    display: inline-block;
+    margin: 0 0 4px 5px;
+    width: 8px;
+    height: 4px;
+    background: url(../img/my\ easy\ purchase.png);
+    background-repeat: no-repeat;
+    background-position: 0 -52px;
+}
+.list-nav-manage{
+    position: absolute;
+    padding: 20px 0 20px 20px;
+    left: -120px;
+    top: 36px;
+    width: 335px;
+    background: #FFF;
+    box-shadow: 1px 0 5px #ddd, -1px 0 5px #ddd;
+    display: none;
+}
+.nav-col{
+    float: left;
+    margin-right: 20px;
+    width: 90px;
+}
+.nav-mge-hover{
+    color: #666;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+}
+.nav-mge-hover em{
+    background-position: 0 -56px;
+}
+.list-nav-manage p{
+    margin: 0;
+    padding: 0;
+}
+.list-nav-manage p a{
+    color: #333;
+    font-size: 12px;
+}
+.nav-manage:hover>div{
+    display: block;
+}
+.nav-col>p>a:hover{
+    color: #FF7700;
+}
+.ms-header-2{
+    padding: 0;
+    height: 5px;
+    line-height: 20px;
+    background: #FFF;
+    box-shadow: 0 2px 5px #e3e3e3;
+}
+.header-useinfo{
+    margin: 0 auto;
+}
+.centenr{
+    margin: 0 auto;
+    max-width: 1190px;
+    cursor: pointer;
+}
+.con{
+    width: 1190px;
+    position: relative;
+    clear: both;
+}
+.con-left-ms{
+    background: #FFF;
+    position: absolute;
+    overflow: hidden;
+    width: 160px;
+}
+.con-left-ms-tree{
+    padding: 0 20px 12px 40px;
+}
+.con-left-ms-tree dt{
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+}
+.con-left-ms-tree .dt{
+    margin-bottom: 2px;
+    line-height: 28px;
+    font-weight: 800;
+    color: #333;
+}
+.con-left-ms-tree-1{
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    vertical-align: middle;
+    margin-left: -18px;
+    margin-right: 4px;
+    background: url(../img/my\ easy\ purchase\ .png);
+}
+.con-left-ms-tree .dt a{
+    font-size: 14px;
+    vertical-align: middle;
+}
+.con-left-ms-tree .dt a em{
+    color: #FF7700;
+    font-style: normal;
+}
+.con-left-ms-tree .dt span{
+    font-size: 14px;
+}
+.con-left-ms-tree .dd ul{
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+.con-left-ms-tree .dd ul li{
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 24px;
+    color: #333;
+    font-size: 12px;
+}
+.con-left-ms-tree-2{
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    vertical-align: middle;
+    margin-left: -18px;
+    margin-right: 4px;
+    background: url(../img/my\ easy\ purchase\ .png);
+    background-position: 1px -15px;
+}
+.con-left-ms-tree-3{
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    vertical-align: middle;
+    margin-left: -18px;
+    margin-right: 4px;
+    background: url(../img/my\ easy\ purchase\ .png);
+    background-position: 1px -29px;
+}
+.con-left-ms-tree-4{
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    vertical-align: middle;
+    margin-left: -18px;
+    margin-right: 4px;
+    background: url(../img/my\ easy\ purchase\ .png);
+    background-position: 1px -43px;
+}
+.con-left-ms-tree-5{
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    vertical-align: middle;
+    margin-left: -18px;
+    margin-right: 4px;
+    background: url(../img/my\ easy\ purchase\ .png);
+    background-position: 1px -71px;
+}
+.con-left-ms-tree-6{
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    vertical-align: middle;
+    margin-left: -18px;
+    margin-right: 4px;
+    background: url(../img/my\ easy\ purchase\ .png);
+    background-position: 1px -58px;
+}
+.con-left-ms-tree div:first-of-type a:hover{
+    color: #FF7700;
+}
+.con-left-ms-tree .dd ul li:hover{
+    color: #FF7700;
+}
