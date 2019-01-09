@@ -1,3 +1,20 @@
+.header-top{
+    padding: 20px 0;
+}
+.header-top>div>img{
+	width: 190px;
+	height: 70px;
+	display: inline-block;
+}
+.header-top ul{
+    display: inline-block;
+    padding: 20px 0 0 80px;
+}
+.header-top ul>li{
+    float: left;
+    padding: 0 14px;
+    font-size: 18px;
+}
 .sign-vip{
     background: rgb(245,245,245);
 }
