@@ -74,7 +74,7 @@
 }
 .input-2{
 	width: 378px;
-	height: 38px;
+	height: 40px;
 	border: 1px solid #CCC;
 	line-height: 38px;
 	margin-bottom: 25px;
@@ -82,12 +82,12 @@
 .title-2{
 	font-size: 10px;
 	float: left;
-	width: 76px;
+	width: 72px;
 	padding-left: 11px;
 }
 .input-wrapper-2{
 	position: relative;
-	float: left;
+	float: right;
 }
 input{
 	border: 0;
