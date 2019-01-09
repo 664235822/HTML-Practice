@@ -37,14 +37,14 @@ body{
 }
 .main{
 	height: 570px;
-	border: 1px solid red;
-	background: url(../img/10_8.jpg) -530px 0;
-	background-repeat: no-repeat;
+	background: rgb(251, 33, 72)
 }
 .main_1{
 	width: 970px;
 	height: 100%;
 	margin: 0px auto;
+	background: url(../img/10_8.jpg) -780px 0;
+	background-repeat: no-repeat;
 }
 .main_2{
 	float: right;
