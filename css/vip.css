@@ -122,10 +122,3 @@ section>div{
 .vip-goods ul>li span{
     color: red;
 }
-.sign-vip{
-    background: rgb(245,245,245);
-}
-.sign-vip .img{
-    background: url(../img/bg-qr-prd.png) -200px 0;
-    height: 660px;
-}
