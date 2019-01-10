@@ -1,12 +1,13 @@
 .box{
-	widows: 1070px;
+	width: 1000px;
 	height: 770px;
-	margin: 0 auto
+	display: inline-block;
+	clear: both;
+	vertical-align: top;
 }
 .head h3{
 	height: 38px;
 	padding: 0 10px;
-	background: #fafafa;
 	color: #666;
 }
 .head span{
@@ -87,9 +88,6 @@ a{
 .control-group{
 	margin-bottom: 25px;
 }
-.1h26{
-	line-height: 26px;
-}
 .controls{
 	position: relative;
 	float: left;
@@ -149,15 +147,6 @@ em{
 .sex-label span{
 	float: left;
 	margin: 5px 20px 0 5px;
-}
-.1h26{
-	position: relative;
-	float: left;
-	line-height: 26px;
-}
-.1h26 span{
-	color: #333;
-	margin-right: 5px;
 }
 .controls a{
 	color: #2272C8;
@@ -239,7 +228,7 @@ i.date-line{
 	right: 5px;
 }
 .save{
-	float: left;
+	padding-top: 20px;
 }
 .ms-stand-btn1{
 	width: 77px;
@@ -251,4 +240,7 @@ i.date-line{
 	text-align: center;
 	color: #FFFFFF;
 	text-decoration: none;
+}
+.adrss-dateil{
+	margin: 0;
 }
