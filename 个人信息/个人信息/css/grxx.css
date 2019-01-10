@@ -1,0 +1,254 @@
+.box{
+	widows: 1070px;
+	height: 770px;
+	margin: 0 auto
+}
+.head h3{
+	height: 38px;
+	padding: 0 10px;
+	background: #fafafa;
+	color: #666;
+}
+.head span{
+	float: right;
+	font-size: 8px;
+}
+.user-profile{
+	width: 968px;
+	height: 186px;
+	margin-left: 90px;
+	padding: 30px 0;
+	border-bottom: 1px solid #f1f1f1;
+}
+.user-profile-wrap{
+	float: left;
+	position: relative;
+	width: 125px;
+	height: 125px;
+}
+.profile-avatar{
+	float: left;
+	position: relative;
+	width: 125px;
+	border: 3px solid #ffffff;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.profile-avatar img{
+	width:125px;
+	height: 125px;
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block; 
+}
+.profile-avatar a{
+	position: absolute;
+	bottom: 0;
+	width: 125px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #FFFFFF;
+	z-index: 2;
+}
+a{
+	outline: 0;
+}
+.edit-bg{
+	position: absolute;
+	left: -3px;
+	bottom: 0;
+	width: 125px;
+	height: 25px;
+	font-size: 0;
+	opacity: .5;
+	z-index: 1;
+	background: #000000;
+}
+.vip-new{
+	background-position: -54px -66px;
+}
+.vip{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	display: inline-block;
+	width: 43px;
+	height: 25px;
+	background: url(../img/icon-nameInfo.png) top left;
+	vertical-align: -5px;
+}
+.profile-info{
+	float: left;
+	margin-left: 25px;
+	padding-top: 35px;
+}
+.control-group{
+	margin-bottom: 25px;
+}
+.1h26{
+	line-height: 26px;
+}
+.controls{
+	position: relative;
+	float: left;
+}
+.text{
+	width: 140px;
+	height: 18px;
+	padding: 3px 5px;
+	border: 1px solid #666666;
+}
+.tips-words{
+	position: absolute;
+	left: 5px;
+	top: 0;
+	height: 26px;
+	line-height: 26px;
+	color: #999;
+}
+.form{
+	display: block;
+	margin-top: 0;
+}
+.control-group{
+	margin-bottom: 20px;
+}
+.control-label{
+	float: left;
+	width: 194px;
+	text-align: right;
+	line-height: 26px;
+	color: #666;
+}
+.control-label em{
+	color: red;
+}
+em{
+	font-style: normal;
+}
+.controls{
+	position: relative;
+	float: left;
+}
+.text{
+	width: 140px;
+	height: 18px;
+	padding: 3px 5px;
+	border: 1px solid #bbb;
+	line-height: 18px;
+}
+.clearfix:after{
+	content: ".";
+}
+.sex-label input{
+	float: left;
+	margin-top: 7px;
+}
+.sex-label span{
+	float: left;
+	margin: 5px 20px 0 5px;
+}
+.1h26{
+	position: relative;
+	float: left;
+	line-height: 26px;
+}
+.1h26 span{
+	color: #333;
+	margin-right: 5px;
+}
+.controls a{
+	color: #2272C8;
+	text-decoration: none;
+}
+a{
+	outline: 0;
+}
+.dateSeletor{
+	display: inline-block;
+}
+.date-icons{
+	position: absolute;
+	left: 127px;
+	top: 6px;
+	width: 20px;
+	height: 15px;
+	background: url(../img/littleIcon.png);
+	background-position: -108px -4px;
+	cursor: pointer;
+}
+i.date-line{
+	color: #bbb;
+}
+.default{
+	background: #EEE;
+	color: #B5B5B5;
+}
+.constellation{
+	width: 90px;
+	margin-left: 3px;
+	text-align: center;
+	color: #999;
+}
+.tips{
+	background-position: -183px -70px;
+}
+.error-place i{
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin: 5px 5px 0 10px;
+	background: url(../img/tipIcon.png)
+}
+.error-place span{
+	float: left;
+	margin-top: 5px;
+	color: #666;
+}
+.citySelect{
+	position: relative;
+	z-index: 99;
+	height: 30px;
+	line-height: 30px;
+}
+.cityboxbth{
+	position: relative;
+	float: left;
+	border: 1px solid #ccc;
+	height: 27px;
+	line-height: 27px;
+	padding: 0 38px 0 5px;
+	color: #000000;
+	z-index: 99;
+	white-space: nowrap;
+}
+.cityboxbth em{
+	color: #999999;
+	padding: 0 2px;
+}
+.cityboxbth b{
+	background: url(../img/jiantou.png) ;
+	top: 8px;
+	position: absolute;
+	display: block;
+	height: 12px;
+	width: 12px;
+	overflow: hidden;
+	right: 5px;
+}
+.save{
+	float: left;
+}
+.ms-stand-btn1{
+	width: 77px;
+	height: 30px;
+	display: inline-block;
+	background: #FF9900;
+	border-radius: 3px;
+	font: 14px/30px;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+}
