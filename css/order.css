@@ -390,13 +390,12 @@ h2 {
 	width: 960px;
 	height: 150px;
 	margin: 0;
+	text-align: center;
 }
 
 .index_6 img {
 	width: 180px;
 	height: 150px;
-	position: absolute;
-	left: 390px;
 }
 
 .index_7 {
