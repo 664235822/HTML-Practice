@@ -34,7 +34,6 @@ body{
 }
 .ms-nav ul {
     display: inline-block;
-    float: left;
     padding-left: 0;
     list-style-type: none;
     margin: 0;
@@ -71,6 +70,7 @@ body{
     background-position: 0 -52px;
 }
 .list-nav-manage{
+    z-index: 1;
     position: absolute;
     padding: 20px 0 20px 20px;
     left: -120px;
@@ -129,12 +129,13 @@ body{
     clear: both;
 }
 .con-left-ms{
+    display: inline-block;
     background: #FFF;
-    position: absolute;
     overflow: hidden;
     width: 160px;
 }
 .con-left-ms-tree{
+    float: left;
     padding: 0 20px 12px 40px;
 }
 .con-left-ms-tree dt{
